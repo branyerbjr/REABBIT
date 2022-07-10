@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/registro.css" />
+    <script src="/scripts/registro.js" defer></script>
+    <title>Registraion Form</title>
+  </head>
+  <body>
+    <form action="#" class="form">
+      <h1 class="text-center">Crea tu perfil</h1>
+      <!-- Progress bar -->
+      <div class="progressbar">
+        <div class="progress" id="progress"></div>
+        
+        <div
+          class="progress-step progress-step-active"
+          data-title="Usuario"
+        ></div>
+        <div class="progress-step" data-title="Contacto"></div>
+        <div class="progress-step" data-title="Datos"></div>
+        <div class="progress-step" data-title="Contraseña"></div>
+      </div>
+
+      <!-- Steps -->
+      <div class="form-step form-step-active">
+        <div class="input-group">
+          <input type="text" name="username" id="username"  placeholder="Nombre"/>
+        </div>
+        <div class="input-group">
+          <input type="number" name="position" id="position" placeholder="Edad"/>
+        </div>
+        <div class="">
+          <a href="#" class="btn btn-next width-50 ml-auto">Siguiente</a>
+        </div>
+      </div>
+      <div class="form-step">
+        <div class="input-group">
+          <label for="phone">Phone</label>
+          <input type="tel" name="phone" id="phone" />
+        </div>
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+        </div>
+        <div class="btns-group">
+          <a href="#" class="btn btn-prev">Atras</a>
+          <a href="#" class="btn btn-next">Siguiente</a>
+        </div>
+      </div>
+      <div class="form-step">
+        <div class="input-group">
+          <label for="dob">Cumpleaños</label>
+          <input type="date" name="dob" id="dob" />
+        </div>
+        <div class="btns-group">
+          <a href="#" class="btn btn-prev">Atras</a>
+          <a href="#" class="btn btn-next">Siguiente</a>
+        </div>
+      </div>
+      <div class="form-step">
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" />
+        </div>
+        <div class="input-group">
+          <label for="confirmPassword">Confirm Password</label>
+          <input
+            type="password"
+            name="confirmPassword"
+            id="confirmPassword"
+          />
+        </div>
+        <div class="btns-group">
+          <a href="#" class="btn btn-prev">Atras</a>
+          <input type="submit" value="Submit" class="btn" /> 
+          <!-- <button type="submit" class="btn">Enviar</button>-->
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
