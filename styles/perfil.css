@@ -241,27 +241,27 @@ nav{
     transform: matrix(1, 0, 0, -1, 0, 0);}
 .wi{
     position: absolute;
-    width: 142px;
+    width: 135px;
     height: 120px;
     left: 100px;
     top: 550px;}
 .wi0{
     position: absolute;
-    width: 142px;
+    width: 135px;
     height: 120px;
     left: 100px;
     top: 690px;}
 .wi01{
     position: absolute;
-    width: 142px;
+    width: 135px;
     height: 120px;
     left: 100px;
     top: 830px;}
 .wi02{
     position:absolute;
-width: 142px;
-height: 120px;
-left: 100px;
+    width: 135px;
+    eight: 120px;
+    left: 100px;
 top: 970px;}
     .wi03{position: absolute;
         width: 60px;
@@ -356,27 +356,190 @@ top: 970px;}
         position: absolute;
         left: 390px;
         top: 600px;
-        
-        font-family: 'Farro';    
+            
         color: #000000;}
     .b5{
         position: absolute;
         left: 450px;
         top: 760px;
-        
-        font-family: 'Farro';    
+            
         color: #000000;}
     .b6{
         position: absolute;
         left: 450px;
         top: 900px;
         
-        font-family: 'Farro';    
+  
         color: #000000;}
     .b7{
         position: absolute;
         left: 450px;
         top: 1040px;
         
-        font-family: 'Farro';    
         color: #000000;}
+    .c{
+        position: absolute;
+        width: 340px;
+        height: 35px;
+        left: 755px;
+        top: 481px;
+        color: #000000;}
+    .c0{
+        position: absolute;
+        width: 340px;
+        height: 35px;
+        left: 1130px;
+        top: 481px;
+        color: #000000;}
+    .c1{
+        position: absolute;
+        width: 129px;
+        height: 50px;
+        left: 770px;
+        top: 560px;
+        
+        display: flex;
+        text-align: center;
+        
+        color: #000000;}
+    .c2{
+        position: absolute;
+        width: 129px;
+        height: 50px;
+        left: 770px;
+        top: 675px;
+           
+        text-align: center;
+        
+        color: #000000}
+    .c3{
+        position: absolute;
+        width: 129px;
+        height: 50px;
+        left: 770px;
+        top: 760px;
+        
+        text-align: center;
+        
+        color: #000000;}
+    .c4{
+        position: absolute;
+        width: 129px;
+        height: 50px;
+        left: 1160px;
+        top: 560px;
+
+        text-align: center;
+        
+        color: #000000;}
+    .d{
+        position: absolute;
+        width: 352px;
+        height: 1px;
+        left: 755px;
+        top: 520px;
+        
+        border: 3px solid #000000;}
+    .d0{
+        position: absolute;
+        width: 352px;
+        height: 1px;
+        left: 1130px;
+        top: 520px;
+        
+        border: 3px solid #000000;}
+    .d1{
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 315px;
+        height: 90px;
+        left: 755px;
+        top: 550px;
+        
+        background: rgba(255, 255, 255, 0);
+        border: 3px dashed #000000;
+        border-radius: 33px 5px 33px 5px; }
+    .d2{
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 315px;
+        height: 90px;
+        left: 755px;
+        top: 650px;
+        
+        background: rgba(255, 255, 255, 0);
+        border: 3px dashed #000000;
+        border-radius: 33px 5px 33px 5px;}
+    .d3{        
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 315px;
+        height: 90px;
+        left: 755px;
+        top: 750px;
+        
+        background: rgba(255, 255, 255, 0);
+        border: 3px dashed #000000;
+        border-radius: 33px 5px 33px 5px;}
+    .d4{        
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 315px;
+        height: 90px;
+        left: 1130px;
+        top: 550px;
+        
+        background: rgba(255, 255, 255, 0);
+        border: 3px dashed #000000;
+        border-radius: 33px 5px 33px 5px;}
+    .e{
+        position: absolute;
+        width: 65px;
+        height: 80px;
+        left: 915px;
+        top: 560px;}
+    .e0{
+        position: absolute;
+        width: 65px;
+        height: 80px;
+        left: 915px;
+        top: 655px;}
+    .e1{
+        position: absolute;
+        width: 65px;
+        height: 80px;
+        left: 915px;
+        top: 755px;}
+    .e2{
+        position: absolute;
+        width: 60px;
+        height: 70px;
+        left: 1340px;
+        top: 560px;}
+    .e3{
+        position: absolute;
+        width: 35px;
+        height: 30px;
+        left: 1000px;
+        top: 575px;
+        
+        color: #C7C2FF;}
+    .e4{        
+        position: absolute;
+        width: 35px;
+        height: 30px;
+        left: 1000px;
+        top: 675px;
+        color: #FF3838;}
+
+    .e5{         
+        position: absolute;
+        width: 35px;
+        height: 30px;
+        left: 1000px;
+        top: 775px;
+        color: #D75308;}
