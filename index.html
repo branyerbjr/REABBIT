@@ -16,59 +16,36 @@
 </head>
 <body>
     <header>
-        <nav class="navbar "><!-- bg-light fixed-top-->
+        <nav class="navbar bg-light fixed-top">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">REARBBIT</a>
               <div class="row">
-                <h4 class="col">Nuestros programas</h4>
-                <button type="button" class="col btn">Ingresar</button>
-                <button type="button" class="col btn">Registrarse</button>
+                <button type="button" class="col btn button1"><a href="#">Ingresar</a> </button>
+                <button type="button" class="col btn button2"><a href="#">Registrarse</a></button>
               </div>
-
-              <!-- <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Reabbit</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">My perfil</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">CONFIGURACIONES</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="index.html">SALIR</a>
-                    </li>
-                  </ul>
-                </div> -->
-              </div>
+            </div>
+            <div id="Myscroll" class="d-flex flex-row collapse navbar-collapse">
+              <a class="col" href="#item-1">Inicia</a>
+              <a class="col" href="#item-2">¿Quienes Somos?</a>
+              <a class="col" href="#item-3">Capacitaciones</a>
+              <a class="col" href="#item-4">Comienza</a>
             </div>
           </nav>
     </header>
-    <div class="container-fluid">
-      <div id="list-example" class="d-flex flex-row">
-        <a href="#item-1">Item 1</a>
-        <a href="#item-2">Item 2</a>
-        <a href="#item-3">Item 3</a>
-        <a href="#item-4">Item 4</a>
-      </div>
+    <div class="container-fluid" style="margin-top: 5%;">
       <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
-        <div id="item-1" class="container-fluid">
+        <div id="item-1" class="row banner1">
           <img src="/imgs/banner1-img.jpeg" alt="">
+          <h3>Mejora tus habilidades de lectura</h3>
         </div>
         <div id="item-2" class="row banner2">
           <img class="col" src="/imgs/logo.svg" alt="">
           <div class="col">
-            <h2>Somo Reabbit</h2>
+            <h2>Somos Reabbit</h2>
             <p>La plataforma de lectura más dinámica y fácil de usar, basado en el sistema de Ramón Campayo. </p>
           </div>
         </div>
-        <div id="item-3" class="row banner3 row-cols-1 row-cols-md-2 g-4">
+        <div id="item-3" class="row banner3 g-4">
           <h1>Capacitaciones</h1>
           <div class="col">
             <div class="card text-bg-secondary mb-3" style="max-width: 18rem;">
@@ -104,11 +81,9 @@
 <footer class="linea">
     <div class="row container-fluid">
       <h3 class="col"><a href="#">REARBBIT</a></h3>
-      <div class="col">
-        <h3>TÉRMINOS</h3>
-        <h5>Copyright © 2022</h5>
-      </div>
+      <h3 class="col">TÉRMINOS</h3>
       <h3 class="col">PRIVACIDAD</h3>
+      <h5>Copyright © 2022</h5>
     </div>
 </footer>
 </html>
