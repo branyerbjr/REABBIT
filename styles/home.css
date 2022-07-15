@@ -8,3 +8,55 @@
     width: 80px;
 }
 
+.system-tsr .test-ini{
+    text-align: center;
+}
+.system-tsr h2{
+    text-align: center;
+}
+.system-tsr img{
+    width: 150px;
+    height: 150px;
+}
+
+.card{
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0 8px 15px rgba(0,0,0,.15), 0 0 10px rgba(0,0,0,.10);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    cursor: pointer;
+}
+.card1_header img{
+    width: 100px;
+    height: 100px;
+}
+.card1_body{
+    text-align: center;
+}
+.card_2 .row{
+    padding: 10px;
+} 
+.card_2 h4{
+    margin: 4px;
+}
+.card_2 a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+}
+.card_2 img{
+    height: 10%;
+    width: 10%;
+    margin-top: 6px;
+}
+.card_2 h6{
+    text-align: left;
+    margin-left: 12px;
+}
+.card_2 .progress{
+    margin-top: 2%;
+}
+
+.card_2 p {
+    font-size: 12px;
+}

@@ -1,0 +1,18 @@
+<svg width="284" height="286" viewBox="0 0 284 286" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 139">
+<g id="Ellipse 92" filter="url(#filter0_f_227_35)">
+<ellipse cx="142" cy="143" rx="138" ry="139" fill="#AC5B78" fill-opacity="0.73"/>
+</g>
+<g id="Group">
+<path id="Vector" d="M142.5 127.5C166.686 127.5 186.292 107.689 186.292 83.25C186.292 58.8114 166.686 39 142.5 39C118.314 39 98.7078 58.8114 98.7078 83.25C98.7078 107.689 118.314 127.5 142.5 127.5Z" stroke="white" stroke-width="10"/>
+<path id="Vector_2" d="M186.292 145.2H189.375C195.778 145.202 201.96 147.566 206.76 151.849C211.56 156.132 214.646 162.038 215.44 168.458L218.865 196.105C219.173 198.596 218.953 201.124 218.22 203.522C217.487 205.921 216.258 208.134 214.614 210.016C212.969 211.897 210.948 213.404 208.684 214.435C206.419 215.467 203.963 216.001 201.479 216H83.5207C81.0366 216.001 78.5809 215.467 76.3164 214.435C74.0519 213.404 72.0305 211.897 70.3863 210.016C68.7421 208.134 67.5128 205.921 66.7799 203.522C66.0469 201.124 65.8272 198.596 66.1352 196.105L69.551 168.458C70.3453 162.035 73.4346 156.126 78.2379 151.843C83.0411 147.56 89.2275 145.198 95.6336 145.2H98.7078" stroke="white" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_227_35" x="0" y="0" width="284" height="286" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="2" result="effect1_foregroundBlur_227_35"/>
+</filter>
+</defs>
+</svg>
