@@ -95,3 +95,138 @@ ul {
 .prueba ul li a.active::before {
     background: #3742da;
 }
+
+.banner1 img{
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    left: 0px;
+    top: 2px;
+    opacity: 0.5;
+    border: 1px solid #000000;
+}
+.banner1 h3{
+    position: absolute;
+    width: 60%;
+    height: 10%;
+    left: 20%;
+    top: 25%;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 87px;
+    text-align: center;
+    color: #000000;
+}
+.banner2 img{
+    width: 422px;
+    height: 631px;
+}
+.banner2 h2{
+    width: 80%;
+    height: 50%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 65px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #8A2BE2;
+    mix-blend-mode: darken;
+}
+.banner2 p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 44px;
+    display: flex;
+    align-items: flex-end;
+    text-align: left;
+    color: #000000;
+}
+.banner3{
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    background: #1A1A1A;
+    mix-blend-mode: normal;
+    padding-bottom: 100px;
+}
+.banner3 .card{
+    margin-left: 20%;
+}
+.banner3 h1{
+    width: 100%;
+    height: 50%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 48px;
+    line-height: 65px;
+    align-items: flex-end;
+    text-align: center;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+.banner3 .card-header{
+    background-color: #1A1A1A;
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 60px;
+}
+.banner3 .card-body{
+    height: 300px;
+}
+.banner4{
+    background-image: url(/imgs/star-pattern.svg);
+    background-color: #8A2BE2;
+}
+.banner4 img{
+    height: 60%;
+    width: 60%;
+    margin: 20px;
+}
+.banner4 p{
+    margin: 20% 10px 10px 15%;
+    width: 70%;
+    height: 147px;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    text-align: center;
+    color: #FFFFFF;
+}
+.banner4 .btn{
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 45px;
+    text-align: center;
+    background: #8C00FA;
+    border-bottom: 12px solid #722CB9;
+    backdrop-filter: blur(4px);
+    border-radius: 30px;
+}
+.banner4 .btn1{
+    background: #AC2BFC;
+}
+.linea {
+    border-top: 1px solid black;
+    height: 2px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+  }
