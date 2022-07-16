@@ -20,6 +20,14 @@
     display: block;
     margin-bottom: 0.5rem;
   }
+  img{
+    width: 12rem;
+    height: 12rem;
+    margin-left: 25%;
+    margin-right: 25%;
+
+  
+  }
   
   input {
     display: block;
@@ -100,7 +108,6 @@
   .form {
     width: clamp(320px, 30%, 430px);
     margin: 0 auto;
-    border: 1px solid #ccc;
     border-radius: 0.35rem;
     padding: 1.5rem;
   }
