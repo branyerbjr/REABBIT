@@ -3,89 +3,10 @@ nav{
     left: 0px;
     top: 7px;
     border: 1px solid rgba(199, 199, 199, 0.77);}
-.logo_nav{
-    position: absolute;
-    width: 92.67px;
-    height: 93.86px;
-    left: 120.88px;
-    top: 7px;
-    
-    background: url(image.png);}
-.navbar-brand{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 27px;
-
-    position: absolute;
-    width: 169.23px;
-    height: 23.38px;
-    left: 225.64px;
-    top: 48px;
-
-    mix-blend-mode: normal;
-    color: #00aeff;}
-.col{
-    position: absolute;
-    width: 91.84px;
-    height: 52px;
-    left: 597px;
-    top: 35px;}
-.col3{
-    position: absolute;
-    width: 24.68px;
-    height: 20px;
-    left: 777px;
-    top: 52px;
-    
-    font-family: 'Comfortaa';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 20px;
-    
-    color: #D75308;}
-.col1{
-    position: absolute;
-    width: 92.68px;
-    height: 52px;
-    left: 709px;
-    top: 35px;  }
-.col4{
-    position: absolute;
-    width: 22.84px;
-    height: 20px;
-    left: 666px;
-    top: 52px;
-    
-    font-family: 'Comfortaa';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 20px;
-
-    color: #C7C2FF;}
-.col2{
-    position: absolute;
-    width: 90.71px;
-    height: 52px;
-    left: 822px;
-    top: 37px; }
-.col5{
-    position: absolute;
-    width: 21.71px;
-    height: 20px;
-    left: 891px;
-    top: 52px;
-    
-    font-family: 'Comfortaa';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 20px;
-    
-    color: #FF3838;}
+.logo_nav{ /* se aplica solo para el logo el tamaño */
+    height: 90px;
+    width: 80px;
+}
 #wi{
     position: absolute;
     width: 276px;
