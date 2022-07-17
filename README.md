@@ -2,15 +2,17 @@
 ![Image text](https://raw.githubusercontent.com/branyerbjr/REABBIT/main/imgs/logo.svg)
 
 
+## Despliegue 🚀
+[Reabbit](https://reabbit.tk)
 
-'Euchi Mano'
-branyer
-anyelina
-wi
-josevitorino12
-daniel
-matias
-kath 
-Daniel Alessandro
-<html>
-</html>
+
+## Autores ✒️
+
+* ** Branyer
+* ** Anyelina
+* ** Wi
+* ** Josevitorino12
+* ** Daniel
+* ** Matias
+* ** Kath 
+* ** Daniel Alessandro
