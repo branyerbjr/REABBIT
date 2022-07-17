@@ -8,11 +8,11 @@
 
 ## Autores ✒️
 
-* ** Branyer
-* ** Anyelina
-* ** Wi
-* ** Josevitorino12
-* ** Daniel
-* ** Matias
-* ** Kath 
-* ** Daniel Alessandro
+* **Branyer**
+* **Anyelina**
+* **Wi**
+* **Josevitorino12**
+* **Daniel**
+* **Matias**
+* **Kath**
+* **Daniel Alessandro**
