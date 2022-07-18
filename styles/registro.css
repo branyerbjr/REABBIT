@@ -126,7 +126,7 @@
     margin: 2rem 0;
   }
   
-  @keyframes animate {
+  @keyframes animate {/*permite a los autores controlar los pasos intermedios en una secuencia de animación CSS mediante el establecimiento de keyframes (o puntos de trayectoria */
     from {
       transform: scale(1, 0);
       opacity: 0;
