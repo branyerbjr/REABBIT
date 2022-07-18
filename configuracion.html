@@ -5,56 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--ICONO DE PESTAÑA-->
-    <link rel="shortcut icon" href="/imgs/logo-icon.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="imgs/logo-icon.svg" type="image/x-icon">
     <!--BOOTSTRAP 5 CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
         <!--BOOTSTRAP 5 JS INTERACCIONES-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/styles/configuracion.css">
+    <link rel="stylesheet" href="styles/configuracion.css">
     <title>Reabbit - Configuracion</title>
 </head>
 <body>
-    <header>
-      <nav class="navbar bg-light fixed-top">
-        <div class="container-fluid">
-          <img class="logo_nav" src="/imgs/logo.svg" alt="logo">
-          <a class="navbar-brand" href="#">REABBIT CONFIGURACIÓN</a>
-          <div class="row">
-            <img class="col" src="/imgs/loto.svg" alt="">
-            <h3 class="col3">72</h3>
-            <img class="col1" src="/imgs/Zanahoria.svg" alt="">
-            <h3 class="col4">22</h3>
-            <img class="col2" src="/imgs/Flor.svg" alt="">
-            <h3 class="col5">92</h3>
+  <header>
+    <nav class="navbar bg-light fixed-top">
+      <div class="container-fluid">
+        <img class="logo_nav" src="imgs/logo.svg" alt="logo">
+        <a style="color: #1CB0F6;" class="navbar-brand" href="#">REARBBIT CONFIGURACION</a>
+        <div class="row">
+          <img class="col" src="imgs/loto.svg" alt="">
+          <h3 class="col">72</h3>
+          <img class="col" src="imgs/Zanahoria.svg" alt="">
+          <h3 class="col">22</h3>
+          <img class="col" src="imgs/Flor.svg" alt="">
+          <h3 class="col">92</h3>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Reabbit</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Reabbit</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="perfil.html">My perfil</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">CONFIGURACIONES</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">SALIR</a>
-                </li>
-              </ul>
-            </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" href="perfil.html">MI PERFIL</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="home.html">CASA</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active"  aria-current="page" href="#">CONFIGURACION</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="entrenamiento.html">ENTRENAMIENTO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link button" href="index.html">SALIR</a>
+              </li>
+            </ul>
           </div>
         </div>
-      </nav>
-    </header>
-    <div>
-      <img class="col6" src="/imgs/conefig.png" alt="">
-      <img class="col7" src="/imgs/cuafig.png" alt="">
+      </div>
+    </nav>
+  </header>
+    <div class="container-fluid">
+      <img class="col6" src="imgs/conefig.png" alt="">
+      <img class="col7" src="imgs/cuafig.png" alt="">
       <h2 id="cit">Configuración de la cuenta</h2>
       <p id="guc">GUARDAR CAMBIOS</p>
       <p id="us">Usuario</p>
@@ -65,14 +71,14 @@
       <p id="ejp">Ejercicios de <br>pronunciación</p>
       <p id="eja">Ejercicios de audio</p>
       <p id="imp">Imagen de perfil</p>
-      <img class="col8" src="/imgs/recus.png" alt="">
-      <img class="col9" src="/imgs/recco.png" alt="">
+      <img class="col8" src="imgs/recus.png" alt="">
+      <img class="col9" src="imgs/recco.png" alt="">
       <p id="luc">LUCIFER_20</p>
       <p id="lug">lucifer20@gmail.com</p>
       <rect id="cua"></rect>
       <p id="lu20">LUCIFER_20</p>
       <p id="ver">VER TU PERFIL</p>
-      <img class="col10" src="/imgs/recusua.png" alt="">
+      <img class="col10" src="imgs/recusua.png" alt="">
       <p id="cue">Cuenta</p>
       <p id="idi">Idioma</p>
       <p id="per">Perfil</p>
